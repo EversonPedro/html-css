@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exenplo de hover</title>
+</head>
+<style>
+    body{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    div > p{
+        display: none; /*esconde o texto da teg p*/
+    }
+    div:hover > p{
+       display: block;/*faz o texto da teg p aparecer*/
+       color: azure;
+       background-color: cadetblue;
+       width: 300px;
+    }
+    div:hover{
+        color: brown;
+    }
+</style>
+<body>
+    <h1>Exeplo de hover</h1>
+    <div>
+        Passe o mause sobre o texto abaixo.
+        <p>TEXTO ESCONDIDO...</p>
+    </div>
+    
+</body>
+</html>
